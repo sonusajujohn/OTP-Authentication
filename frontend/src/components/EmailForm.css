@@ -1,0 +1,93 @@
+body{
+    background:url('https://media.istockphoto.com/id/1011441292/photo/login-written-on-an-old-typewriter.webp?a=1&b=1&s=612x612&w=0&k=20&c=okKKyf2s51GgUGdgADOwoph-issW2sCWJD2_vXgPuhA=');
+    background-size: contain;
+}
+
+.email-form-container {
+    max-width: 400px;
+    margin-left: 500px;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: #99a8ffae; 
+    border-radius: 8px; 
+    box-shadow: 5px 4px 12px 5px rgba(0, 0, 0, 0.1);
+    color: #333; 
+    border: 1px solid black; 
+    margin-top: 60px; 
+  }
+  
+  /* Heading style */
+  .email-form-heading {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600; /* Slightly lighter weight for modern style */
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  /* Error message style */
+  .email-form-error {
+    color: #e74c3c; /* Red for error */
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  /* Label style */
+  .email-form-label {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  
+  /* Input field style */
+  .email-form-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light border for input fields */
+    outline: none;
+    font-size: 16px;
+    color: #333; /* Dark text */
+    background-color: #fafafa; /* Very light background for input fields */
+  }
+  
+  .email-form-input:focus {
+    border-color: #3498db; /* Blue border on focus for input fields */
+    background-color: #fff; /* White background on focus */
+  }
+  
+  /* Button style */
+  .email-form-button {
+    padding: 14px 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #e13b32; /* Professional blue */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+  }
+  
+  /* Button hover effect */
+  .email-form-button:hover {
+    background-color: #891212; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  /* Button active state effect */
+  .email-form-button:active {
+    background-color: #1f6f96; /* Even darker blue on click */
+    transform: scale(1); /* Reset scale on click */
+  }
+  
